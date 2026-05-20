@@ -1,0 +1,13 @@
+[package]
+name = "cert-x-tractor"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+goblin = { version = "0.10.0", features = ["default"]}
+base64 = "0.22.1"
+x509-parser = "0.18.1"
+clap = { version = "4.5.61", features = ["derive"] }
+log = "0.4.29"
+env_logger = "0.11.10"
+thiserror = { version = "2.0.12", features = ["std"]}
