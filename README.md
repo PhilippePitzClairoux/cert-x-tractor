@@ -2,7 +2,7 @@
 Extract certificates from executables. We bruteforce extraction if
 executable headers aren't reliable (ex.: if CertificateTable size exceeds
 total file length). This is usefull when attackers tamper
-executable structure in order to hinder automatic extraction of
+with executable structure in order to hinder automatic extraction of
 certificates.
 
 Only supports PE files (for now)
